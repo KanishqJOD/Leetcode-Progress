@@ -1,3 +1,5 @@
+```cpp
+
 class Solution {
 public:
     int minOperations(vector<int>& nums) {
@@ -37,3 +39,4 @@ private:
         return 1;
     }
 };
+```
