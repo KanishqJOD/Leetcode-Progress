@@ -1,3 +1,4 @@
+```cpp
 class Solution {
 public:
     int count(vector<int>&nums,int target,int ind, int &size,int bitwise){
@@ -20,3 +21,4 @@ public:
         return ans;
     }
 };
+```
