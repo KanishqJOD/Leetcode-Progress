@@ -1,3 +1,4 @@
+```cpp
 class Solution {
 public:
     char findKthBit(int n, int k) {
@@ -22,3 +23,4 @@ public:
         return fin[k - 1];  
     }
 };
+```
