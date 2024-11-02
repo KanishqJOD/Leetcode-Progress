@@ -2,7 +2,7 @@
 class Solution {
     int rec(int i, int j1, int j2, int rowSize, int colSize, vector<vector<int>> &grid,vector<vector<vector<int>>> &dp) {
         if (j1 < 0 || j1 >= colSize || j2 < 0 || j2 >= colSize) {
-            return -1e8; 
+            return -1e7; 
         }
         if (i == rowSize - 1) {
             if (j1 == j2) {
