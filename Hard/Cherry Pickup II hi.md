@@ -15,7 +15,7 @@ class Solution {
             return dp[i][j1][j2];
         }
 
-        int maxi = -1e8; 
+        int maxi = -1e6; 
         for (int dj1 = -1; dj1 <= 1; dj1++) {
             for (int dj2 = -1; dj2 <= 1; dj2++) {
                 if (j1 == j2) {
